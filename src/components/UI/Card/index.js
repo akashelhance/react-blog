@@ -3,9 +3,11 @@ import './style.css';
 
 const Card = (props) => {
     return (
-        <div>
-            
+
+        <div className="card" style={{ width: props.width ? props.width : '100%' }} {...props}>
+            {props.children}
         </div>
+
     )
 }
 

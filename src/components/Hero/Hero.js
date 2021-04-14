@@ -1,14 +1,18 @@
 import React from 'react'
 import Logo from '../Logo'
+import Navbar from '../Navbar/Navbar'
 import Card from '../UI/Card'
 
-const Hero = () => {
+const Hero = (props) => {
     return (
         <div>
             <Card>
-                <Logo/>
+                <div style={{ padding: '50px 0' }}>
+                    <Logo />
+                </div>
+                <Navbar/>
             </Card>
-            
+
         </div>
     )
 }
