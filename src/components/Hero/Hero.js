@@ -1,9 +1,14 @@
 import React from 'react'
+import Logo from '../Logo'
+import Card from '../UI/Card'
 
 const Hero = () => {
     return (
         <div>
-            Hero
+            <Card>
+                <Logo/>
+            </Card>
+            
         </div>
     )
 }

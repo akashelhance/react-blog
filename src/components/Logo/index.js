@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Logo = (props) => {
+const Logo = () => {
     return (
         <div className="logo">
-        <a href="#">Rizwan Khan</a>
+        <a href="#">Akash Elhance</a>
     </div>
     )
 }
 
-export default index
+export default Logo
